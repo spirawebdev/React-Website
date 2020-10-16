@@ -1,13 +1,42 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  text-align: center;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 1em;
+  font-family: Roboto;
+  color: black;
+  border-bottom: solid black 1px;
+}
+
+
+.parallax img {
+
+  /* Set a specific height */
+  height: 1000px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*connect to top of page */
+  margin-top: 0px;
+}
+
+.title {
+  font-family: Roboto;
+  display: inline;
 }
