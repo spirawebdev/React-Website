@@ -1,6 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -14,29 +12,13 @@ nav {
   background-color: white;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 1em;
+  padding: .0em;
   font-family: Roboto;
+  font-size: 1.6em;
   color: black;
-  border-bottom: solid black 1px;
+
 }
-
-
-.parallax img {
-
-  /* Set a specific height */
-  height: 1000px;
-  
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /*connect to top of page */
-  margin-top: 0px;
-}
-
-.title {
-  font-family: Roboto;
-  display: inline;
-}
+ .parallax {
+   font-family: roboto;
+   font-size: 2em;
+ }
