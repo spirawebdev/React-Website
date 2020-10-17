@@ -22,3 +22,12 @@ nav {
    font-family: roboto;
    font-size: 2em;
  }
+
+ .subtitle {
+   font-family: roboto;
+   font-size: 2em;
+   text-align: center;
+   border: 2px black solid;
+   margin-left: 25%;
+   margin-right: 25%;
+ }
